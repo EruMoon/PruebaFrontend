@@ -1,6 +1,3 @@
-// src/components/AdminOrderTable.jsx
-import React from "react";
-
 export default function AdminOrderTable({ orders, onView }) {
   if (!orders.length) {
     return (
@@ -26,7 +23,7 @@ export default function AdminOrderTable({ orders, onView }) {
           {orders.map((o) => (
             <tr key={o._id} className="bg-gray-50 hover:bg-gray-100 transition">
               <td className="px-4 py-3">{o.codigoRecogida}</td>
-              <td className="px-4 py-3">{o.user.nombre}</td>
+              <td className="px-4 py-3">{o.user?.nombre || 'No disponible'}</td>
               <td className="px-4 py-3">${o.total.toFixed(2)}</td>
               <td className="px-4 py-3 capitalize">{o.estado}</td>
               <td className="px-4 py-3 text-center">
