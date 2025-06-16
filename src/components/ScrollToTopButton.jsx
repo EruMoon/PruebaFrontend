@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ChevronUp } from "lucide-react"; // O usa cualquier ícono SVG que prefieras
+import { ArrowUp } from "lucide-react"; // O usa cualquier ícono SVG que prefieras
 
 const ScrollToTopButton = () => {
   const [visible, setVisible] = useState(false);
@@ -27,7 +27,7 @@ const ScrollToTopButton = () => {
       className="fixed bottom-2 left-6 z-50 bg-white p-3 rounded-full shadow-lg hover:bg-blue-200 transition-all duration-300"
       aria-label="Subir al inicio"
     >
-      <ChevronUp size={24} className="text-[#0056A6]" />
+      <ArrowUp size={24} className="text-[#0056A6]" />
     </button>
   );
 };
