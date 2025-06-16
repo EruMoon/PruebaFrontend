@@ -8,10 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  build: {
-    rollupOptions: {
-      external: ['lucide-react'],
-    },
-  },
 })
 
