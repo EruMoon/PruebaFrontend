@@ -106,14 +106,14 @@ const Home = () => {
             {/* Redes sociales */}
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/FarmacenterCo/?locale=es_LA"
+                href="https://www.facebook.com/nmmseru/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebook size={25} className="hover:text-[#000]" />
               </a>
               <a
-                href="https://www.instagram.com/farmacenterco/?hl=es"
+                href="https://www.instagram.com/nmmseru/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -160,21 +160,21 @@ const Home = () => {
             </h4>
             <div className="flex items-center space-x-5 mt-4">
               <a
-                href="https://www.facebook.com/FarmacenterCo/?locale=es_LA"
+                href="https://www.facebook.com/nmmseru/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebook size={24} className="hover:text-[#ffc800]" />
               </a>
               <a
-                href="https://www.instagram.com/farmacenterco/?hl=es"
+                href="https://www.instagram.com/nmmseru/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram size={24} className="hover:text-[#ffc800]" />
               </a>
               <a
-                href="https://wa.me/573115193968"
+                href="https://wa.me/573107318545"
                 target="_blank"
                 rel="noopener noreferrer"
               >
